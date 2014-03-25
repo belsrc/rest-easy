@@ -3,7 +3,7 @@
     "description": "A simple library to make restful curl requests",
     "type": "library",
     "license": "BSD-3-Clause",
-    "homepage": "https://github.com/belsrc/",
+    "homepage": "https://github.com/belsrc/rest-easy",
     "keywords": ["curl", "REST", "restful"],
     "authors": [
         {
@@ -12,7 +12,7 @@
         }
     ],
     "support": {
-      "issues": "https://github.com/belsrc//issues"
+      "issues": "https://github.com/belsrc/rest-easy/issues"
     },
     "require": {
         "php": ">=5.3.0",
