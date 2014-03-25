@@ -1,3 +1,4 @@
+# RestEasy
 A simple library to make restful curl requests.
 
 ### Install
