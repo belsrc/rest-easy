@@ -27,7 +27,7 @@ Route::get('/', function() {
         'Accept-Charset: utf-8',
         'Accept-Language: en-US'
     );
-    $tmp = RestEasy::get( 'http://bryanckizer.com/', $headers );
+    $tmp = RestEasy::get( 'http://laravel.com/', $headers );
     echo $tmp->body;
 });
 ```
