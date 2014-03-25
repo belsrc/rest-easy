@@ -1,7 +1,7 @@
 A simple library to make restful curl requests.
 
 ### Install
-You can install it by downloading the [release](https://github.com/belsrc/rest-easy/releases) and including it in your project or, preferably, using Composer.
+You can install it by downloading the [zip](https://github.com/belsrc/rest-easy/archive/master.zip) and including it in your project or, preferably, using Composer.
 ```
 {
     "require": {
