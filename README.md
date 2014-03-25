@@ -32,6 +32,27 @@ Route::get('/', function() {
 });
 ```
 
+#### RestEasy Methods
+Just four easy methods to remember
+```php
+RestEasy::get($url, $headers)
+RestEasy::post($url, $headers, $data)
+RestEasy::put($url, $headers, $data)
+RestEasy::delete($url, $headers)
+```
+with the response being an instance of the ```CurlResponse``` object having a few simple properties.
+```php
+CurlResponse::getBody()
+CurlResponse::getInfo()
+CurlResponse::getError()
+```
+all of which can also be called like normal properties.
+```php
+$response->body
+$response->info
+$response->error
+```
+
 ## License ##
 RestEasy is released under a BSD 3-Clause License
 
