@@ -9,14 +9,14 @@ You can install it by downloading the [release](https://github.com/belsrc/rest-e
     }
 }
 ```
-If you are using Laravel you can also include the ServiceProvider in the '''app/config/app.php''' providers array.
-'''
-'Belsrc\RestEasy\RestEasyServiceProvider'
-'''
-as well as the Facade in the aliases array.
-'''
-'RestEasy' => 'Belsrc\RestEasy\Facades\RestEasy'
-'''
+If you are using Laravel you can also include the ServiceProvider in the ```app/config/app.php``` 'providers' array.
+```
+    'Belsrc\RestEasy\RestEasyServiceProvider'
+```
+as well as the Facade in the 'aliases' array.
+```
+    'RestEasy' => 'Belsrc\RestEasy\Facades\RestEasy'
+```
 
 ### Quick Example
 ```php
