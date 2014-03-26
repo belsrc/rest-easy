@@ -24,8 +24,8 @@
         "sebastian/phpcpd": "1.4.*"
     },
     "autoload": {
-        "psr-0": {
-            "Belsrc\\RestEasy": "src/"
+        "psr-4": {
+            "Belsrc\\RestEasy\\": "src/"
         }
     },
     "minimum-stability": "stable"
