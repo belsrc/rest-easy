@@ -1,6 +1,6 @@
 <?php namespace Belsrc\RestEasy;
 
-    class CurlResponse {
+    class CurlResponse implements IResponse {
 
         private $_body;
         private $_error;
